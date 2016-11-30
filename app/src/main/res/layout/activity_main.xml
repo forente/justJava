@@ -17,16 +17,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Quanity" />
+            android:layout_marginBottom="16dp"
+            android:text="Quanity"/>
 
         <TextView
+            android:id="@+id/quantity_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/quantity_text_view"
-            android:textSize="10dp"
-            android:textColor="@android:color/black"
             android:text="0"
-            android:layout_margin="16dp"/>
+            android:textColor="@android:color/black"
+            android:textSize="10dp"
+            />
 
         <Button
             android:layout_width="wrap_content"
