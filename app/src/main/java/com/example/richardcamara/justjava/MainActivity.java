@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void submitOrder(View view) {
         String priceMessage = "Free";
-        displayPrice(quantity * 5);
+        displayMessage(priceMessage);
     }
 
     /**
@@ -71,4 +71,6 @@ public class MainActivity extends AppCompatActivity {
         TextView priceTextView = (TextView) findViewById(R.id.price_text_view);
         priceTextView.setText(message);
     }
+
+    
 }
